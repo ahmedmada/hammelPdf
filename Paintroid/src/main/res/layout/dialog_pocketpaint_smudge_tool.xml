@@ -26,9 +26,9 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/pocketpaint_smudge_top_layout">
+        android:id="@+id/pdfPaint_smudge_top_layout">
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/pocketpaint_stroke_width_width_text_layout"
+        android:id="@+id/pdfPaint_stroke_width_width_text_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -37,7 +37,7 @@
         style="@style/TextFieldTheme">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/pocketpaint_stroke_width_width_text"
+            android:id="@+id/pdfPaint_stroke_width_width_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:imeOptions="actionDone"
@@ -57,14 +57,14 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <SeekBar
-        android:id="@+id/pocketpaint_stroke_width_seek_bar"
+        android:id="@+id/pdfPaint_stroke_width_seek_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@id/pocketpaint_stroke_width_width_text_layout"
-        android:layout_alignBottom="@id/pocketpaint_stroke_width_width_text_layout"
+        android:layout_alignTop="@id/pdfPaint_stroke_width_width_text_layout"
+        android:layout_alignBottom="@id/pdfPaint_stroke_width_width_text_layout"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="10dp"
-        android:layout_toEndOf="@+id/pocketpaint_stroke_width_width_text_layout"
+        android:layout_toEndOf="@+id/pdfPaint_stroke_width_width_text_layout"
         android:max="100"
         android:minHeight="30dip" />
 
@@ -77,8 +77,8 @@
         android:layout_marginBottom="50dp">
         <!--> This Linear layout is needed for the preview.
         The Brush tool searches for the Top of the parent<-->
-        <org.catrobat.paintroid.ui.tools.BrushToolView
-            android:id="@+id/pocketpaint_brush_tool_preview"
+        <paintpdf.ui.tools.BrushToolView
+            android:id="@+id/pdfPaint_brush_tool_preview"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"/>
@@ -86,13 +86,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:id="@+id/pocketpaint_smudge_bottom_layout"
+        android:id="@+id/pdfPaint_smudge_bottom_layout"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:orientation="vertical">
 
         <com.google.android.material.chip.ChipGroup
-            android:id="@+id/pocketpaint_stroke_types"
+            android:id="@+id/pdfPaint_stroke_types"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -102,7 +102,7 @@
             app:singleSelection="true">
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/pocketpaint_stroke_ibtn_circle"
+                android:id="@+id/pdfPaint_stroke_ibtn_circle"
                 style="@style/ChipTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
                 app:chipIcon="@drawable/ic_pocketpaint_tool_circle" />
 
             <com.google.android.material.chip.Chip
-                android:id="@+id/pocketpaint_stroke_ibtn_rect"
+                android:id="@+id/pdfPaint_stroke_ibtn_rect"
                 style="@style/ChipTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -131,27 +131,27 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/pocketpaint_smudge_tool_dialog_pressure_input_text_view"
-                    style="@style/PocketPaintToolSubtitle"
-                    android:labelFor="@+id/pocketpaint_smudge_tool_dialog_pressure_input"
+                    android:id="@+id/pdfPaint_smudge_tool_dialog_pressure_input_text_view"
+                    style="@style/PdfPaintToolSubtitle"
+                    android:labelFor="@+id/pdfPaint_smudge_tool_dialog_pressure_input"
                     android:text="@string/smudge_tool_dialog_pressure_title" />
 
-                <View style="@style/PocketPaintToolSectionDivider" />
+                <View style="@style/PdfPaintToolSectionDivider" />
 
-                <LinearLayout style="@style/PocketPaintToolSection">
+                <LinearLayout style="@style/PdfPaintToolSection">
 
                     <SeekBar
-                        android:id="@+id/pocketpaint_pressure_seek_bar"
+                        android:id="@+id/pdfPaint_pressure_seek_bar"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:max="100"
                         android:minHeight="30dip" />
 
-                    <Space style="@style/PocketPaintToolHorizontalSpace" />
+                    <Space style="@style/PdfPaintToolHorizontalSpace" />
 
                     <EditText
-                        android:id="@+id/pocketpaint_smudge_tool_dialog_pressure_input"
+                        android:id="@+id/pdfPaint_smudge_tool_dialog_pressure_input"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:imeOptions="actionDone"
@@ -180,27 +180,27 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/pocketpaint_smudge_tool_dialog_drag_input_text_view"
-                    style="@style/PocketPaintToolSubtitle"
-                    android:labelFor="@+id/pocketpaint_smudge_tool_dialog_drag_input"
+                    android:id="@+id/pdfPaint_smudge_tool_dialog_drag_input_text_view"
+                    style="@style/PdfPaintToolSubtitle"
+                    android:labelFor="@+id/pdfPaint_smudge_tool_dialog_drag_input"
                     android:text="@string/smudge_tool_dialog_drag_title" />
 
-                <View style="@style/PocketPaintToolSectionDivider" />
+                <View style="@style/PdfPaintToolSectionDivider" />
 
-                <LinearLayout style="@style/PocketPaintToolSection">
+                <LinearLayout style="@style/PdfPaintToolSection">
 
                     <SeekBar
-                        android:id="@+id/pocketpaint_drag_seek_bar"
+                        android:id="@+id/pdfPaint_drag_seek_bar"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:max="100"
                         android:minHeight="30dip" />
 
-                    <Space style="@style/PocketPaintToolHorizontalSpace" />
+                    <Space style="@style/PdfPaintToolHorizontalSpace" />
 
                     <EditText
-                        android:id="@+id/pocketpaint_smudge_tool_dialog_drag_input"
+                        android:id="@+id/pdfPaint_smudge_tool_dialog_drag_input"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:imeOptions="actionDone"

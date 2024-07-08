@@ -1,10 +1,10 @@
 use_adb_root(false)
 
-app_package_name('org.catrobat.paintroid.test')
-use_tests_in_packages(['org.catrobat.paintroid.test.espresso.screenshots'])
-tests_package_name('org.catrobat.paintroid.test')
+app_package_name('paintpdf.test')
+use_tests_in_packages(['paintpdf.test.espresso.screenshots'])
+tests_package_name('paintpdf.test')
 
-app_apk_path('app/build/outputs/apk/debug/paintroid-debug.apk')
+app_apk_path('app/build/outputs/apk/debug/pdfPaint-debug.apk')
 tests_apk_path('Paintroid/build/outputs/apk/androidTest/debug/Paintroid-debug-androidTest.apk')
 
 test_instrumentation_runner 'androidx.test.runner.AndroidJUnitRunner'

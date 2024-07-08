@@ -1,9 +1,9 @@
 Paintroid
 =========
 
-Paintroid, also known as **Pocket Paint**, is associated to [Catroid](https://github.com/Catrobat/Catroid). It is a graphical paint editor application for the Android platform that, among others, allows setting parts of pictures to transparent.
+Paintroid, also known as **Hammel Pdf**, is associated to [Catroid](https://github.com/Catrobat/Catroid). It is a graphical paint editor application for the Android platform that, among others, allows setting parts of pictures to transparent.
 
-Since Pocket Paint is now available in **Google Play store** you can also download Paintroid (Pocket Paint) from [here](https://play.google.com/store/apps/details?id=org.catrobat.paintroid). Alternatively, you can find it on **F-Droid** [here](https://f-droid.org/packages/org.catrobat.paintroid/).
+Since Hammel Pdf is now available in **Google Play store** you can also download Paintroid (Hammel Pdf) from [here](https://play.google.com/store/apps/details?id=paintpdf). Alternatively, you can find it on **F-Droid** [here](https://f-droid.org/packages/paintpdf/).
 
 
 For more information oriented towards developers please visit our [developers page](http://developer.catrobat.org/).
@@ -21,8 +21,8 @@ Let's start to set up the working environment using the instructions in our  [Wi
 
 
 # Resources and links #
-* [Google Play Store Download](https://play.google.com/store/apps/details?id=org.catrobat.paintroid)
-* [F-Droid Download](https://f-droid.org/packages/org.catrobat.paintroid/)
+* [Google Play Store Download](https://play.google.com/store/apps/details?id=paintpdf)
+* [F-Droid Download](https://f-droid.org/packages/paintpdf/)
 * [Frequently Asked Questions](https://github.com/Catrobat/Catroid/wiki/Frequently-Asked-Questions)
 * [Credits](http://developer.catrobat.org/credits)
 * [Statistics on OpenHub](https://www.openhub.net/p/catrobat/)

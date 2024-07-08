@@ -1,38 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><!--
- *  Paintroid: An image manipulation application for Android.
- *  Copyright (C) 2010-2022 The Catrobat Team
- *  (<http://developer.catrobat.org/credits>)
- *
- *  This program is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU Affero General Public License as
- *  published by the Free Software Foundation, either version 3 of the
- *  License, or (at your option) any later version.
- *
- *  This program is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- *  GNU Affero General Public License for more details.
- *
- *  You should have received a copy of the GNU Affero General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
- -->
-
+<?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/pocketpaint_layout_top_bar"
+    android:id="@+id/pdfPaint_layout_top_bar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:alpha="0.80"
     tools:showIn="@layout/activity_pocketpaint_main">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/pocketpaint_toolbar"
+        android:id="@+id/pdfPaint_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/PocketPaintTheme"
+        android:theme="@style/PdfPaintTheme"
         app:popupTheme="@style/DropdownMenu"
-        app:title="@string/pocketpaint_app_name">
+        app:title="Create PDF">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -40,7 +22,25 @@
             android:layout_gravity="end">
 
             <ImageButton
-                android:id="@+id/pocketpaint_btn_top_undo"
+                android:id="@+id/pdfPaint_btn_manage_pages"
+                style="?actionButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/button_undo"
+                android:src="@drawable/baseline_note_add_24"
+                android:tint="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/pdfPaint_btn_remove_pages"
+                style="?actionButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/button_undo"
+                android:src="@drawable/baseline_delete_24"
+                android:tint="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/pdfPaint_btn_top_undo"
                 style="?actionButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -49,7 +49,7 @@
                 android:tint="@android:color/white" />
 
             <ImageButton
-                android:id="@+id/pocketpaint_btn_top_redo"
+                android:id="@+id/pdfPaint_btn_top_redo"
                 style="?actionButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
                 android:tint="@android:color/white" />
 
             <ImageButton
-                android:id="@+id/pocketpaint_btn_top_plus"
+                android:id="@+id/pdfPaint_btn_top_plus"
                 style="?actionButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
                 android:visibility="gone" />
 
             <ImageButton
-                android:id="@+id/pocketpaint_btn_top_checkmark"
+                android:id="@+id/pdfPaint_btn_top_checkmark"
                 style="?actionButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

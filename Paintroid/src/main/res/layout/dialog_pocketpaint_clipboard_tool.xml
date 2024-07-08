@@ -7,13 +7,13 @@
     android:padding="8dp">
 
     <RelativeLayout
-        android:id="@+id/pocketpaint_layout_clipboard_tool_options"
+        android:id="@+id/pdfPaint_layout_clipboard_tool_options"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
         <include
-            android:id="@+id/pocketpaint_layout_clipboard_tool_options_view_shape_size"
+            android:id="@+id/pdfPaint_layout_clipboard_tool_options_view_shape_size"
             layout="@layout/pocketpaint_layout_shape_size_template"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
 
         <Space
             android:id="@+id/space_one"
-            style="@style/PocketPaintToolHorizontalSpace"
+            style="@style/PdfPaintToolHorizontalSpace"
             android:layout_alignParentBottom="true"
             android:layout_toEndOf="@+id/action_copy" />
 
@@ -49,7 +49,7 @@
 
         <Space
             android:id="@+id/space_two"
-            style="@style/PocketPaintToolHorizontalSpace"
+            style="@style/PdfPaintToolHorizontalSpace"
             android:layout_alignParentBottom="true"
             android:layout_toEndOf="@+id/action_cut" />
 
@@ -67,13 +67,13 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/pocketpaint_reshape_size_layout"
+        android:id="@+id/pdfPaint_reshape_size_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true" >
 
         <include
-            android:id="@+id/pocketpaint_layout_clipboard_tool_change_size_shape_size"
+            android:id="@+id/pdfPaint_layout_clipboard_tool_change_size_shape_size"
             layout="@layout/pocketpaint_layout_shape_size_template"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

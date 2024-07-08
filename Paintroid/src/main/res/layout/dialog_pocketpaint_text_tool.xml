@@ -23,7 +23,7 @@
     android:layout_height="match_parent">
 
     <RelativeLayout
-        android:id="@+id/pocketpaint_text_top_layout"
+        android:id="@+id/pdfPaint_text_top_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
@@ -36,7 +36,7 @@
             android:layout_margin="10dp">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/pocketpaint_font_size_text"
+                android:id="@+id/pdfPaint_font_size_text"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:background="@drawable/pocketpaint_round_rect_shape"
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/pocketpaint_text_tool_dialog_toggle_underlined"
+                    android:id="@+id/pdfPaint_text_tool_dialog_toggle_underlined"
                     style="@style/CircularToggleButtonStyle"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
@@ -77,14 +77,14 @@
                     android:textSize="20sp" />
             </com.google.android.material.button.MaterialButtonToggleGroup>
 
-            <Space style="@style/PocketPaintToolHorizontalSpace" />
+            <Space style="@style/PdfPaintToolHorizontalSpace" />
 
             <com.google.android.material.button.MaterialButtonToggleGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/pocketpaint_text_tool_dialog_toggle_italic"
+                    android:id="@+id/pdfPaint_text_tool_dialog_toggle_italic"
                     style="@style/CircularToggleButtonStyle"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
@@ -93,14 +93,14 @@
                     android:textStyle="italic" />
             </com.google.android.material.button.MaterialButtonToggleGroup>
 
-            <Space style="@style/PocketPaintToolHorizontalSpace" />
+            <Space style="@style/PdfPaintToolHorizontalSpace" />
 
             <com.google.android.material.button.MaterialButtonToggleGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/pocketpaint_text_tool_dialog_toggle_bold"
+                    android:id="@+id/pdfPaint_text_tool_dialog_toggle_bold"
                     style="@style/CircularToggleButtonStyle"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
@@ -113,7 +113,7 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/pocketpaint_text_bottom_layout"
+        android:id="@+id/pdfPaint_text_bottom_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
@@ -122,27 +122,27 @@
             android:layout_height="wrap_content"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
-            android:layout_above="@id/pocketpaint_text_tool_dialog_list_font">
+            android:layout_above="@id/pdfPaint_text_tool_dialog_list_font">
 
             <include
-                android:id="@+id/pocketpaint_layout_text_tool_options_view_shape_size"
+                android:id="@+id/pdfPaint_layout_text_tool_options_view_shape_size"
                 layout="@layout/pocketpaint_layout_shape_size_template"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </RelativeLayout>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/pocketpaint_text_tool_dialog_list_font"
+            android:id="@+id/pdfPaint_text_tool_dialog_list_font"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/pocketpaint_text_tool_dialog_input_text_layout"
+            android:layout_above="@+id/pdfPaint_text_tool_dialog_input_text_layout"
             android:clipToPadding="false"
             android:orientation="horizontal"
             android:paddingStart="10dp"
             android:paddingEnd="10dp" />
 
         <RelativeLayout
-            android:id="@+id/pocketpaint_text_tool_dialog_input_text_layout"
+            android:id="@+id/pdfPaint_text_tool_dialog_input_text_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -151,7 +151,7 @@
             android:paddingEnd="10dp">
 
             <EditText
-                android:id="@+id/pocketpaint_text_tool_dialog_input_text"
+                android:id="@+id/pdfPaint_text_tool_dialog_input_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/backgroundtint_color_edittext_state_list"
@@ -164,7 +164,7 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/pocketpaint_text_reshape_size_layout"
+        android:id="@+id/pdfPaint_text_reshape_size_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -172,7 +172,7 @@
         android:padding="10dp" >
 
         <include
-            android:id="@+id/pocketpaint_layout_text_tool_change_size_shape_size"
+            android:id="@+id/pdfPaint_layout_text_tool_change_size_shape_size"
             layout="@layout/pocketpaint_layout_shape_size_template"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

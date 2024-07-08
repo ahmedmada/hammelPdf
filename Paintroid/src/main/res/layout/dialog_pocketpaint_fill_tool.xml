@@ -29,28 +29,28 @@
         android:focusableInTouchMode="true">
 
     <TextView
-        android:id="@+id/pocketpaint_fill_tool_dialog_color_tolerance_input_text_view"
-        style="@style/PocketPaintToolSubtitle"
-        android:labelFor="@+id/pocketpaint_fill_tool_dialog_color_tolerance_input"
+        android:id="@+id/pdfPaint_fill_tool_dialog_color_tolerance_input_text_view"
+        style="@style/PdfPaintToolSubtitle"
+        android:labelFor="@+id/pdfPaint_fill_tool_dialog_color_tolerance_input"
         android:text="@string/fill_tool_dialog_color_tolerance_title" />
 
-    <View style="@style/PocketPaintToolSectionDivider"/>
+    <View style="@style/PdfPaintToolSectionDivider"/>
 
     <LinearLayout
-        style="@style/PocketPaintToolSection" >
+        style="@style/PdfPaintToolSection" >
 
         <SeekBar
-            android:id="@+id/pocketpaint_color_tolerance_seek_bar"
+            android:id="@+id/pdfPaint_color_tolerance_seek_bar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:max="100"
             android:minHeight="30dip"/>
 
-        <Space style="@style/PocketPaintToolHorizontalSpace"/>
+        <Space style="@style/PdfPaintToolHorizontalSpace"/>
 
         <EditText
-            android:id="@+id/pocketpaint_fill_tool_dialog_color_tolerance_input"
+            android:id="@+id/pdfPaint_fill_tool_dialog_color_tolerance_input"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="number"

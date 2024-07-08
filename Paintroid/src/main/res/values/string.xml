@@ -1,25 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?><!--
- *  Paintroid: An image manipulation application for Android.
- *  Copyright (C) 2010-2021 The Catrobat Team
- *  (<http://developer.catrobat.org/credits>)
- *
- *  This program is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU Affero General Public License as
- *  published by the Free Software Foundation, either version 3 of the
- *  License, or (at your option) any later version.
- *
- *  This program is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- *  GNU Affero General Public License for more details.
- *
- *  You should have received a copy of the GNU Affero General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
--->
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="pocketpaint_app_name">Pocket Paint</string>
+    <string name="pdfPaint_app_name">Hammel Pdf</string>
     <string name="button_brush">Brush</string>
     <string name="button_cursor">Cursor</string>
     <string name="button_pipette">Pipette</string>
@@ -94,7 +76,7 @@
     <string name="menu_hide_menu">Hide buttons</string>
     <string name="share_image_menu">Share image</string>
     <string name="share_image_via_text">Send image via</string>
-    <string name="pocketpaint_menu_about" translatable="false">@string/pocketpaint_about_title</string>
+    <string name="pdfPaint_menu_about" translatable="false">@string/pdfPaint_about_title</string>
     <string name="menu_rate_us">Rate us!</string>
     <string name="menu_export">Export</string>
     <string name="menu_feedback">Feedback</string>
@@ -175,14 +157,14 @@
 
     <string name="dialog_save_jpg_option_quality">Quality:</string>
 
-    <string name="pocketpaint_jpg_title_dialog" translatable="false">jpg</string>
-    <string name="pocketpaint_jpg_message_dialog">Takes up <b>minimal storage space</b>. <b>No transparency</b> is remembered.</string>
-    <string name="pocketpaint_png_title_dialog" translatable="false">png</string>
-    <string name="pocketpaint_png_message_dialog">Lossless compression. Transparency is preserved.</string>
-    <string name="pocketpaint_ora_title_dialog" translatable="false">Ora</string>
-    <string name="pocketpaint_ora_message_dialog">This format remembers <b>layers</b>. <b>It can be opened by apps that support the Openraster format.</b></string>
-    <string name="pocketpaint_catrobat_title_dialog" translatable="false">catrobat-image</string>
-    <string name="pocketpaint_catrobat_message_dialog">Pocket Paint\'s native image format. This format remembers commands and layers.</string>
+    <string name="pdfPaint_jpg_title_dialog" translatable="false">jpg</string>
+    <string name="pdfPaint_jpg_message_dialog">Takes up <b>minimal storage space</b>. <b>No transparency</b> is remembered.</string>
+    <string name="pdfPaint_png_title_dialog" translatable="false">png</string>
+    <string name="pdfPaint_png_message_dialog">Lossless compression. Transparency is preserved.</string>
+    <string name="pdfPaint_ora_title_dialog" translatable="false">Ora</string>
+    <string name="pdfPaint_ora_message_dialog">This format remembers <b>layers</b>. <b>It can be opened by apps that support the Openraster format.</b></string>
+    <string name="pdfPaint_catrobat_title_dialog" translatable="false">catrobat-image</string>
+    <string name="pdfPaint_catrobat_message_dialog">Hammel Pdf\'s native image format. This format remembers commands and layers.</string>
 
 
     <string name="permission_info_external_storage_text">This app needs the requested permission to function properly. In order to save images to the local memory, the app needs read and write access to it.</string>
@@ -193,44 +175,44 @@
     <string name="transform_info_text">Drag edges to their new position, tap on the checkmark to enlarge or crop the image area.</string>
     <string name="cursor_draw_inactive">Pan to position, then tap to start painting.</string>
     <string name="cursor_draw_active">Pan to draw, then tap again to stop painting.</string>
-    <string name="welcome_to_pocket_paint">Welcome To Pocket Paint</string>
-    <string name="intro_welcome_text">With Pocket Paint there are no limits to your creativity. If you are new, start the intro, or skip it if you are already familiar with Pocket Paint.</string>
+    <string name="welcome_to_hammel_pdf">Welcome To Hammel Pdf</string>
+    <string name="intro_welcome_text">With Hammel Pdf there are no limits to your creativity. If you are new, start the intro, or skip it if you are already familiar with Hammel Pdf.</string>
     <string name="intro_tool_more_information">Tap on a tool to get more information</string>
     <string name="more_possibilities">More possibilities</string>
     <string name="intro_possibilities_text">Use the top bar to open the overflow menu and to undo or redo changes</string>
     <string name="landscape">Landscape</string>
-    <string name="intro_landscape_text">Pocket Paint also supports drawing in landscape mode to give you the best painting experience.</string>
-    <string name="enjoy_pocket_paint">You are all set. Enjoy Pocket Paint.</string>
+    <string name="intro_landscape_text">Hammel Pdf also supports drawing in landscape mode to give you the best painting experience.</string>
+    <string name="enjoy_hammel_pdf">You are all set. Enjoy Hammel Pdf.</string>
     <string name="intro_get_started">Get started and create a new masterpiece.</string>
     <string name="lets_go">Let\'s go</string>
     <string name="next">Next</string>
     <string name="skip">Skip</string>
 
-    <string name="pocketpaint_about_title">About</string>
-    <string name="pocketpaint_about_version" translatable="false">Version %s</string>
-    <string name="pocketpaint_about_license" translatable="false">GNU Affero General Public License, v3</string>
-    <string name="pocketpaint_about_content">Pocket Paint is a picture editing library that is part of the Catrobat project.\n\nCatrobat is a visual programming language and set of creativity tools for smartphones.\n\nThe source code of Pocket Paint is mainly licensed under the %s.\nFor precise details of the license see the link below.</string>
-    <string name="pocketpaint_about_url_license_description">Pocket Paint source code license</string>
-    <string name="pocketpaint_about_url_catrobat_description">About Catrobat</string>
-    <string name="pocketpaint_about_url_license" translatable="false">&lt;a href=\"https://catrob.at/licenses\"&gt;%s&lt;/a&gt;</string>
-    <string name="pocketpaint_about_url_catrobat" translatable="false">&lt;a href=\"https://catrobat.org/\"&gt;%s&lt;/a&gt;</string>
+    <string name="pdfPaint_about_title">About</string>
+    <string name="pdfPaint_about_version" translatable="false">Version %s</string>
+    <string name="pdfPaint_about_license" translatable="false">GNU Affero General Public License, v3</string>
+    <string name="pdfPaint_about_content">Hammel Pdf is a picture editing library that is part of the Catrobat project.\n\nCatrobat is a visual programming language and set of creativity tools for smartphones.\n\nThe source code of Hammel Pdf is mainly licensed under the %s.\nFor precise details of the license see the link below.</string>
+    <string name="pdfPaint_about_url_license_description">Hammel Pdf source code license</string>
+    <string name="pdfPaint_about_url_catrobat_description">About Catrobat</string>
+    <string name="pdfPaint_about_url_license" translatable="false">&lt;a href=\"https://catrob.at/licenses\"&gt;%s&lt;/a&gt;</string>
+    <string name="pdfPaint_about_url_catrobat" translatable="false">&lt;a href=\"https://catrobat.org/\"&gt;%s&lt;/a&gt;</string>
 
-    <string name="pocketpaint_intro">Intro</string>
+    <string name="pdfPaint_intro">Intro</string>
 
-    <string name="pocketpaint_intro_split_screen_not_supported">Intro does not support split screen.</string>
+    <string name="pdfPaint_intro_split_screen_not_supported">Intro does not support split screen.</string>
 
-    <string name="pocketpaint_overwrite_title">Overwrite File?</string>
-    <string name="pocketpaint_overwrite">You are about to overwrite an existing image (hint: To save it as a new image, use the \"%s\" option). Save anyway?</string>
+    <string name="pdfPaint_overwrite_title">Overwrite File?</string>
+    <string name="pdfPaint_overwrite">You are about to overwrite an existing image (hint: To save it as a new image, use the \"%s\" option). Save anyway?</string>
 
-    <string name="pocketpaint_like_us">Do you like Pocket Paint?</string>
-    <string name="pocketpaint_rate_us">Would you like to rate Pocket Paint?</string>
-    <string name="pocketpaint_feedback">We are sorry to hear that. If you want to share your experience with us, please write to contact@catrobat.org</string>
-    <string name="pocketpaint_yes">Yes</string>
-    <string name="pocketpaint_no">No</string>
-    <string name="pocketpaint_ok"  translatable="false">@android:string/ok</string>
-    <string name="pocketpaint_cancel">Cancel</string>
-    <string name="pocketpaint_not_now">Not now</string>
-    <string name="pocketpaint_rate_us_title">Rate Pocket Paint</string>
+    <string name="pdfPaint_like_us">Do you like Hammel Pdf?</string>
+    <string name="pdfPaint_rate_us">Would you like to rate Hammel Pdf?</string>
+    <string name="pdfPaint_feedback">We are sorry to hear that. If you want to share your experience with us, please write to contact@catrobat.org</string>
+    <string name="pdfPaint_yes">Yes</string>
+    <string name="pdfPaint_no">No</string>
+    <string name="pdfPaint_ok"  translatable="false">@android:string/ok</string>
+    <string name="pdfPaint_cancel">Cancel</string>
+    <string name="pdfPaint_not_now">Not now</string>
+    <string name="pdfPaint_rate_us_title">Rate Hammel Pdf</string>
 
     <string name="bottom_navigation_tools">Tools</string>
     <string name="bottom_navigation_current">Current</string>
@@ -243,7 +225,7 @@
     <string name="intro_bottom_navigation_color_description">Shows the currently used color and opens the color picker.</string>
     <string name="intro_bottom_navigation_layers_description">Opens the layer menu and lets you manage your layers.</string>
 
-    <string name="pocketpaint_tool_icon_description">Current tool icon</string>
+    <string name="pdfPaint_tool_icon_description">Current tool icon</string>
 
     <string name="dialog_scale_title">Image is too big to load</string>
     <string name="dialog_scale_message">The image is too big to load. Tap OK to scale down the image automatically.</string>

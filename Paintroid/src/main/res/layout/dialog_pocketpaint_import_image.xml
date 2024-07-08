@@ -41,10 +41,10 @@
             android:weightSum="2">
 
             <LinearLayout
-                android:id="@+id/pocketpaint_dialog_import_gallery"
+                android:id="@+id/pdfPaint_dialog_import_gallery"
                 tools:ignore="UseCompoundDrawables"
                 android:background="?attr/selectableItemBackground"
-                style="@style/PocketPaintToolSelectionButton">
+                style="@style/PdfPaintToolSelectionButton">
 
                 <ImageView
                     android:layout_gravity="center"
@@ -62,10 +62,10 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/pocketpaint_dialog_import_stickers"
+                android:id="@+id/pdfPaint_dialog_import_stickers"
                 tools:ignore="UseCompoundDrawables"
                 android:background="?attr/selectableItemBackground"
-                style="@style/PocketPaintToolSelectionButton">
+                style="@style/PdfPaintToolSelectionButton">
 
                 <ImageView
                     android:layout_width="50dp"

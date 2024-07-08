@@ -10,7 +10,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_height"
-        android:background="@color/pocketpaint_color_picker_actionbar_color"
+        android:background="@color/pdfPaint_color_picker_actionbar_color"
         android:paddingStart="16dp"
         android:paddingEnd="16dp">
 
@@ -30,7 +30,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             app:cardCornerRadius="0dp"
-            app:strokeColor="@color/pocketpaint_color_picker_white"
+            app:strokeColor="@color/pdfPaint_color_picker_white"
             app:strokeWidth="1dp">
 
             <View
@@ -57,7 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <org.catrobat.paintroid.colorpicker.ZoomableImageView
+        <paintpdf.colorpicker.ZoomableImageView
             android:id="@+id/previewSurface"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -28,11 +28,11 @@ platform :android do
     lane :upload_APK_Paintroid do
         # ...
         upload_to_play_store(
-            package_name:               'org.catrobat.paintroid',
+            package_name:               'paintpdf',
             mapping:                    './app/build/outputs/mapping/signedRelease/mapping.txt',
             track:                      'alpha',
             json_key_data:              ENV['googlePlayJsonKey'],
-            apk_paths:                  './app/build/outputs/apk/signedRelease/paintroid-signedRelease.apk',
+            apk_paths:                  './app/build/outputs/apk/signedRelease/pdfPaint-signedRelease.apk',
             skip_upload_apk:            'false',
             skip_upload_metadata:       'true',
             skip_upload_images:         'true',
@@ -45,7 +45,7 @@ platform :android do
 	desc "upload Paintroid screenshots"
 	lane :upload_Screenshots_Paintroid do
 		upload_to_play_store(
-		  package_name:               'org.catrobat.paintroid',
+		  package_name:               'paintpdf',
 		  track:                      'alpha',
 		  json_key_data:              ENV['googlePlayJsonKey'],
 		  metadata_path:              './fastlane/metadata/android',

@@ -31,7 +31,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/pocketpaint_save_info_title"
+            android:id="@+id/pdfPaint_save_info_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
@@ -39,7 +39,7 @@
             android:textSize="12sp" />
 
         <EditText
-            android:id="@+id/pocketpaint_image_name_save_text"
+            android:id="@+id/pdfPaint_image_name_save_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="fill_vertical"
@@ -56,27 +56,27 @@
         android:layout_marginTop="16dp">
 
         <TextView
-            android:id="@+id/pocketpaint_image_format_title"
+            android:id="@+id/pdfPaint_image_format_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_toStartOf="@+id/pocketpaint_btn_save_info"
+            android:layout_toStartOf="@+id/pdfPaint_btn_save_info"
             android:text="@string/dialog_save_image_format"
             android:textSize="12sp" />
 
         <Spinner
-            android:id="@+id/pocketpaint_save_dialog_spinner"
+            android:id="@+id/pdfPaint_save_dialog_spinner"
             style="@style/PocketpaintSpinnerTheme"
             android:layout_width="157dp"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/pocketpaint_image_format_title"
+            android:layout_below="@+id/pdfPaint_image_format_title"
             android:spinnerMode="dropdown"
             android:textSize="14sp"
             android:theme="@style/CustomTextViewStyle" />
 
         <ImageButton
-            android:id="@+id/pocketpaint_btn_save_info"
-            style="@style/PocketPaintSelectableButton"
+            android:id="@+id/pdfPaint_btn_save_info"
+            style="@style/PdfPaintSelectableButton"
             android:layout_width="25dp"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -86,13 +86,13 @@
         <View
             android:layout_width="151dp"
             android:layout_height="1dp"
-            android:layout_below="@+id/pocketpaint_save_dialog_spinner"
+            android:layout_below="@+id/pdfPaint_save_dialog_spinner"
             android:layout_marginStart="3dp"
-            android:background="@color/pocketpaint_main_drawing_surface_inactive" />
+            android:background="@color/pdfPaint_main_drawing_surface_inactive" />
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/pocketpaint_save_format_specific_options"
+        android:id="@+id/pdfPaint_save_format_specific_options"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clipChildren="false"

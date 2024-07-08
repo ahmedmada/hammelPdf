@@ -19,14 +19,14 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/pocketpaint_layout_shape_size_template"
+    android:id="@+id/pdfPaint_layout_shape_size_template"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     tools:ignore="MissingDefaultResource">
 
     <com.google.android.material.chip.Chip
-        android:id="@+id/pocketpaint_fill_shape_size_text"
+        android:id="@+id/pdfPaint_fill_shape_size_text"
         style="@style/ChipTheme"
         android:theme="@style/Theme.MaterialComponents.Light"
         android:layout_width="wrap_content"

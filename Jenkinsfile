@@ -31,7 +31,7 @@ pipeline {
 
     agent {
          docker {
-            image 'catrobat/catrobat-paintroid:stable'
+            image 'catrobat/hammel.paintpdf:stable'
             args '--device /dev/kvm:/dev/kvm -v /var/local/container_shared/gradle_cache/$EXECUTOR_NUMBER:/home/user/.gradle -m=6.5G'
             label 'LimitedEmulator'
             alwaysPull true
@@ -53,7 +53,7 @@ pipeline {
         stage('Build Debug-APK') {
             steps {
                 sh "./gradlew -Pindependent='#$env.BUILD_NUMBER $env.BRANCH_NAME' assembleDebug"
-                archiveArtifacts 'app/build/outputs/apk/debug/paintroid-debug*.apk'
+                archiveArtifacts 'app/build/outputs/apk/debug/paintpdf-debug*.apk'
                 plot csvFileName: 'dexcount.csv', csvSeries: [[displayTableFlag: false, exclusionValues: '', file: 'Paintroid/build/outputs/dexcount/*.csv', inclusionFlag: 'OFF', url: '']], group: 'APK Stats', numBuilds: '180', style: 'line', title: 'dexcount'
             }
         }

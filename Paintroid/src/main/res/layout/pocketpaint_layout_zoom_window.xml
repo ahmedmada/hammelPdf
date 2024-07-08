@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/pocketpaint_zoom_window"
+    android:id="@+id/pdfPaint_zoom_window"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:visibility="gone"
     android:layout_height="match_parent">
 
     <ImageView
-        android:layout_width="@dimen/pocketpaint_zoom_window_diameter"
-        android:layout_height="@dimen/pocketpaint_zoom_window_diameter"
-        android:id="@+id/pocketpaint_zoom_window_image"
+        android:layout_width="@dimen/pdfPaint_zoom_window_diameter"
+        android:layout_height="@dimen/pdfPaint_zoom_window_diameter"
+        android:id="@+id/pdfPaint_zoom_window_image"
         android:layout_marginTop="50dp"
         android:layout_marginHorizontal="10dp"
         android:padding="3dp"

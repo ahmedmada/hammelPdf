@@ -17,19 +17,19 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-    <!-- PocketPaint MainActivity -->
-    <dimen name="pocketpaint_main_bottom_bar_height">50dp</dimen>
-    <dimen name="pocketpaint_bottom_navigation_icon_size">24dp</dimen>
-    <dimen name="pocketpaint_main_top_bar_height">50dp</dimen>
+    <!-- PdfPaint MainActivity -->
+    <dimen name="pdfPaint_main_bottom_bar_height">50dp</dimen>
+    <dimen name="pdfPaint_bottom_navigation_icon_size">24dp</dimen>
+    <dimen name="pdfPaint_main_top_bar_height">50dp</dimen>
 
-    <!-- PocketPaint WelcomeActivity -->
-    <dimen name="pocketpaint_welcome_dots_height">35dp</dimen>
-    <dimen name="pocketpaint_welcome_navigation_height">40dp</dimen>
-    <dimen name="pocketpaint_welcome_margin_side">50dp</dimen>
-    <dimen name="pocketpaint_welcome_margin_top">100dp</dimen>
-    <dimen name="pocketpaint_welcome_margin_top_possibilities">50dp</dimen>
-    <dimen name="pocketpaint_welcome_margin_top_text">25dp</dimen>
+    <!-- PdfPaint WelcomeActivity -->
+    <dimen name="pdfPaint_welcome_dots_height">35dp</dimen>
+    <dimen name="pdfPaint_welcome_navigation_height">40dp</dimen>
+    <dimen name="pdfPaint_welcome_margin_side">50dp</dimen>
+    <dimen name="pdfPaint_welcome_margin_top">100dp</dimen>
+    <dimen name="pdfPaint_welcome_margin_top_possibilities">50dp</dimen>
+    <dimen name="pdfPaint_welcome_margin_top_text">25dp</dimen>
 
-    <!-- PocketPaint Zoom Window -->
-    <dimen name="pocketpaint_zoom_window_diameter">80dp</dimen>
+    <!-- PdfPaint Zoom Window -->
+    <dimen name="pdfPaint_zoom_window_diameter">80dp</dimen>
 </resources>

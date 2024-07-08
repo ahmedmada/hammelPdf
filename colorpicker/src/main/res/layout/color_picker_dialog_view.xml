@@ -25,7 +25,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="16dp"
                 android:layout_alignParentStart="true"
-                app:strokeColor="@color/pocketpaint_color_picker_separation_color"
+                app:strokeColor="@color/pdfPaint_color_picker_separation_color"
                 app:strokeWidth="2dp">
 
                 <View
@@ -55,7 +55,7 @@
                     android:gravity="center"
                     android:text="@string/color_picker_current_color"
                     android:fontFamily="sans-serif-medium"
-                    android:textColor="@color/pocketpaint_color_picker_gray"
+                    android:textColor="@color/pdfPaint_color_picker_gray"
                     android:textSize="12sp" />
 
                 <TextView
@@ -65,7 +65,7 @@
                     android:gravity="center"
                     android:text="@string/color_picker_new_color"
                     android:fontFamily="sans-serif-medium"
-                    android:textColor="@color/pocketpaint_color_picker_gray"
+                    android:textColor="@color/pdfPaint_color_picker_gray"
                     android:textSize="12sp" />
 
             </LinearLayout>
@@ -77,14 +77,14 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:backgroundTint="@color/pocketpaint_color_picker_btn_color"
+                android:backgroundTint="@color/pdfPaint_color_picker_btn_color"
                 android:text="@string/color_picker_pipette"
                 app:icon="@drawable/ic_color_picker_pipette"
                 app:iconGravity="textStart"
                 tools:ignore="RelativeOverlap" />
         </RelativeLayout>
 
-        <org.catrobat.paintroid.colorpicker.ColorHistoryView
+        <paintpdf.colorpicker.ColorHistoryView
             android:id="@+id/color_history_view"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
@@ -109,7 +109,7 @@
                 android:gravity="center"
                 android:text="@string/color_picker_history_recently_used"
                 android:fontFamily="sans-serif-medium"
-                android:textColor="@color/pocketpaint_color_picker_gray"
+                android:textColor="@color/pdfPaint_color_picker_gray"
                 android:textSize="12sp" />
 
         </LinearLayout>
@@ -117,9 +117,9 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:background="@color/pocketpaint_color_picker_separation_color" />
+            android:background="@color/pdfPaint_color_picker_separation_color" />
 
-        <org.catrobat.paintroid.colorpicker.ColorPickerView
+        <paintpdf.colorpicker.ColorPickerView
             android:id="@+id/color_picker_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
             android:layout_marginTop="6dp"
             android:layout_marginEnd="12dp" />
 
-        <org.catrobat.paintroid.colorpicker.AlphaSliderView
+        <paintpdf.colorpicker.AlphaSliderView
             android:id="@+id/color_alpha_slider"
             android:layout_width="wrap_content"
             android:layout_height="22dp"

@@ -16,4 +16,4 @@ Please review the [contributing guidelines](https://github.com/Catrobat/Paintroi
 - [ ] Stick to the project’s gitflow workflow
 - [ ] Verify that your changes do not have any conflicts with the base branch
 - [ ] After the PR, verify that all CI checks have passed
-- [ ] Post a message in the *#paintroid* [Slack channel](https://catrobat.slack.com) and ask for a code reviewer
+- [ ] Post a message in the *#pdfPaint* [Slack channel](https://catrobat.slack.com) and ask for a code reviewer

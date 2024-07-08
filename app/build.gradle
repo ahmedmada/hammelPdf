@@ -1,34 +1,13 @@
 import io.gitlab.arturbosch.detekt.Detekt
 
-/**
- *  Paintroid: An image manipulation application for Android.
- *  Copyright (C) 2010-2022 The Catrobat Team
- *  (<http://developer.catrobat.org/credits>)
- *
- *  This program is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU Affero General Public License as
- *  published by the Free Software Foundation, either version 3 of the
- *  License, or (at your option) any later version.
- *
- *  This program is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- *  GNU Affero General Public License for more details.
- *
- *  You should have received a copy of the GNU Affero General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
 
 apply plugin: 'com.android.application'
 
 ext {
-    appId = 'org.catrobat.paintroid'
-    appName = '@string/pocketpaint_app_name'
+    appId = 'org.hammel.paintpdf'
+    appName = '@string/pdfPaint_app_name'
 }
 
-// When -Pindependent was provided on the gradle command the APP name is changed.
-// This allows to have multiple Paintroid versions installed in parallel for testing purposes.
-// Furthermore these installations do not interfere with the actual Paintroid app.
 if (project.hasProperty('independent')) {
     def today = new Date()
     appId += '.independent_' + today.format('YYYYMMdd_HHmm')
@@ -49,7 +28,7 @@ android {
         versionCode rootProject.ext.androidVersionCode
         versionName rootProject.ext.androidVersionName
         manifestPlaceholders += [appName: appName]
-        setProperty("archivesBaseName", "paintroid")
+        setProperty("archivesBaseName", "paintpdf")
     }
 
     compileOptions {

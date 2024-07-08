@@ -24,7 +24,7 @@
     android:layout_margin="16dp">
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/pocketpaint_spray_radius_text_layout"
+        android:id="@+id/pdfPaint_spray_radius_text_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -32,7 +32,7 @@
         style="@style/OptionsViewTextFieldTheme">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/pocketpaint_radius_text"
+            android:id="@+id/pdfPaint_radius_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:imeOptions="actionDone"
@@ -52,18 +52,18 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <SeekBar
-        android:id="@+id/pocketpaint_spray_radius_seek_bar"
+        android:id="@+id/pdfPaint_spray_radius_seek_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:max="100"
         android:minHeight="30dip"
-        android:layout_alignTop="@id/pocketpaint_spray_radius_text_layout"
-        android:layout_toEndOf="@+id/pocketpaint_spray_radius_text_layout"
-        android:layout_alignBottom="@id/pocketpaint_spray_radius_text_layout"
+        android:layout_alignTop="@id/pdfPaint_spray_radius_text_layout"
+        android:layout_toEndOf="@+id/pdfPaint_spray_radius_text_layout"
+        android:layout_alignBottom="@id/pdfPaint_spray_radius_text_layout"
         android:layout_alignParentEnd="true"/>
 
     <LinearLayout
-        android:id="@+id/pocketpaint_spray_seperator"
+        android:id="@+id/pdfPaint_spray_seperator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

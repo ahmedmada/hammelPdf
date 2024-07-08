@@ -24,7 +24,7 @@
     android:padding="?dialogPreferredPadding">
 
     <com.google.android.material.switchmaterial.SwitchMaterial
-        android:id="@+id/pocketpaint_antialiasing"
+        android:id="@+id/pdfPaint_antialiasing"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:checked="true"
@@ -37,7 +37,7 @@
         android:layout_height="16dp" />
 
     <com.google.android.material.switchmaterial.SwitchMaterial
-        android:id="@+id/pocketpaint_smoothing"
+        android:id="@+id/pdfPaint_smoothing"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:checked="true"

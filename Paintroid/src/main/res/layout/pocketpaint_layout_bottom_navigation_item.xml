@@ -22,7 +22,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/pocketpaint_main_bottom_bar_height"
+    android:layout_height="@dimen/pdfPaint_main_bottom_bar_height"
     android:orientation="horizontal"
     android:gravity="center"
     android:paddingTop="5dp"
@@ -30,12 +30,12 @@
 
     <ImageView
         android:id="@+id/icon"
-        android:layout_width="@dimen/pocketpaint_bottom_navigation_icon_size"
-        android:layout_height="@dimen/pocketpaint_bottom_navigation_icon_size"
+        android:layout_width="@dimen/pdfPaint_bottom_navigation_icon_size"
+        android:layout_height="@dimen/pdfPaint_bottom_navigation_icon_size"
         android:contentDescription="@string/bottom_navigation_item"
         app:tint="@android:color/white"/>
 
-    <Space style="@style/PocketPaintToolHorizontalSpace" />
+    <Space style="@style/PdfPaintToolHorizontalSpace" />
 
     <TextView
         android:id="@+id/title"

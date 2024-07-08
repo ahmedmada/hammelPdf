@@ -18,8 +18,8 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources>
-    <!-- PocketPaint -->
-    <declare-styleable name="PocketPaintWelcomeAttributes" >
+    <!-- PdfPaint -->
+    <declare-styleable name="PdfPaintWelcomeAttributes" >
         <attr name="android:textColor" />
         <attr name="android:fontFamily" />
         <attr name="android:textSize" />

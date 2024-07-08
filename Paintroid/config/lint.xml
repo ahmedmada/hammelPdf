@@ -36,7 +36,7 @@
     </issue>
 
     <issue id="ShowToast">
-        <ignore path="src/main/java/org/catrobat/paintroid/ui/ToastFactory.java" />
+        <ignore path="src/main/java/org/catrobat/pdfPaint/ui/ToastFactory.java" />
     </issue>
 
     <issue id="UnusedResources">

@@ -38,47 +38,47 @@
             android:padding="10dp" >
 
             <ImageView
-                android:id="@+id/pocketpaint_about_header"
+                android:id="@+id/pdfPaint_about_header"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/pocketpaint_logo_small"
-                android:contentDescription="@string/pocketpaint_app_name" />
+                android:contentDescription="@string/pdfPaint_app_name" />
 
             <TextView
-                android:id="@+id/pocketpaint_about_version"
+                android:id="@+id/pdfPaint_about_version"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:textSize="8sp"
-                tools:text="@string/pocketpaint_about_version"
+                tools:text="@string/pdfPaint_about_version"
                 tools:ignore="SmallSp" />
 
             <TextView
-                android:id="@+id/pocketpaint_about_content"
+                android:id="@+id/pdfPaint_about_content"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                tools:text="@string/pocketpaint_about_content" />
+                tools:text="@string/pdfPaint_about_content" />
 
             <TextView
-                android:id="@+id/pocketpaint_about_license_url"
+                android:id="@+id/pdfPaint_about_license_url"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:textColorLink="@color/pocketpaint_text_color_link"
+                android:textColorLink="@color/pdfPaint_text_color_link"
                 android:textSize="20sp"
-                tools:text="@string/pocketpaint_about_url_license_description" />
+                tools:text="@string/pdfPaint_about_url_license_description" />
 
             <TextView
-                android:id="@+id/pocketpaint_about_catrobat_url"
+                android:id="@+id/pdfPaint_about_catrobat_url"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:textColorLink="@color/pocketpaint_text_color_link"
+                android:textColorLink="@color/pdfPaint_text_color_link"
                 android:textSize="20sp"
-                tools:text="@string/pocketpaint_about_url_catrobat_description" />
+                tools:text="@string/pdfPaint_about_url_catrobat_description" />
         </LinearLayout>
     </ScrollView>
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.catrobat.paintroid.colorpicker">
+    package="paintpdf.colorpicker">
 
     <application>
         <activity
             android:exported="false"
-            android:name=".ColorPickerPreviewActivity"
+            android:name="org.hammel.paintpdf.colorpicker.ColorPickerPreviewActivity"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar.Bridge" />
     </application>
 
